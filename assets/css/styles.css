@@ -70,6 +70,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game Library Cards */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+}
 /* Grid Testing Layout */
 
 /*.container {
