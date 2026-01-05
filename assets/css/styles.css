@@ -28,13 +28,22 @@ h3 {
     color: var(--highlight-color);
 }
 
+/* Navbar Styles */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
 /* Grid Testing Layout */
 
-.container {
+/*.container {
     border: 2px solid black;
 }
 
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
+}*/
