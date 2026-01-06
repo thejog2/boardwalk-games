@@ -41,6 +41,9 @@
                         <a class="nav-link" href="#">Services</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="index.html#events">Events</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="game-library.html">Games</a>
                     </li>
                     <li class="nav-item">
@@ -216,6 +219,64 @@
                             <p><em>Ages:</em> 8+</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reserve a game section -->
+        <section class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <!-- Header -->
+                    <h2 class="text-center mb-3">Reserve a game</h2>
+                    <!-- Paragraph -->
+                    <p class="mb-4"> Reserve a board game for your next visit to Boardwalk Games. Pick your challenge,
+                        and let
+                        the adventure begin! Fill out your details and preferred game below, and we'll have it set aside
+                        for you when you
+                        arrive. </p>
+                    <!-- Form -->
+                    <form action="success.html" method="GET">
+                        <div class="row g-3">
+                            <!-- Full Name -->
+                            <div class="col-12 col-xl-4"> <label for="fullname" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="fullname" name="fullname" required>
+                            </div>
+                            <!-- Phone Number -->
+                            <div class="col-12 col-xl-4"> <label for="phonenumber" class="form-label">Phone
+                                    Number</label>
+                                <input type="tel" class="form-control" id="phonenumber" name="phonenumber" required>
+                            </div>
+                            <!-- Email Address -->
+                            <div class="col-12 col-xl-4"> <label for="emailaddress" class="form-label">Email
+                                    Address</label>
+                                <input type="email" class="form-control" id="emailaddress" name="emailaddress" required>
+                            </div>
+                            <!-- Select Game -->
+                            <div class="col-12 col-xl-6"> <label for="selectgame" class="form-label">Select Game</label>
+                                <select class="form-select" id="selectgame" name="selectgame" required>
+                                    <option selected disabled>Select a game</option>
+                                    <option>Galaxy Pioneers</option>
+                                    <option>Mystic Woods</option>
+                                    <option>Captain's Gambit</option>
+                                    <option>Critter Quest</option>
+                                    <option>Settlers of Catan</option>
+                                    <option>Monopoly</option>
+                                    <option>Exploding Kittens</option>
+                                    <option>Cluedo</option>
+                                </select>
+                            </div>
+                            <!-- Requested Date -->
+                            <div class="col-12 col-xl-6"> <label for="requestedDate" class="form-label">Requested
+                                    Date</label>
+                                <input type="date" class="form-control" id="requestedDate" required>
+                            </div>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class="text-end mt-4"> <button type="submit"
+                                class="btn custom-button-outline px-4">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
