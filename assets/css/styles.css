@@ -94,6 +94,11 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+#student-discount {
+    background-color: var(--highlight-color);
+    color: white;
+    padding: 4px 4px;
+}
 /* Game Library Cards */
 
 #new-games .card,
